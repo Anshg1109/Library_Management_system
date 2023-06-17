@@ -1,0 +1,108 @@
+.mb2 {
+    margin-bottom: 2em !important;
+}
+
+.bookList{
+    margin: 10px
+}
+.pageHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0 1em;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.borrowed{
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.pageHeader h1 {
+    font-size: 2em;
+    font-weight: 400;
+    color: #444;
+    margin: 0;
+}
+
+.tableContainer {
+    width: 100%;
+    height: 400px;
+}
+
+.listtab {
+margin-top: 10px;
+margin-bottom: 40px;
+}
+
+.actionsContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.conf_modal {
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: (-50%, -50%);
+}
+
+.conf_modal_actions {
+    padding: 15px 20px;
+    justify-content: flex-end;
+    border-top: 1px solid #e4e4e4;
+}
+
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("../../images/back.jpg") center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
+    border-radius: 4px;
+    padding: 20px 8px;
+
+  }
+
+  
+  
+  .headerTitle {
+    margin-bottom: 16px;
+    font-size: 2.2rem;
+    color: rgb(250, 250, 250);
+
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+  .searchInput {
+    background-color: #fff; 
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 2px 2px;
+    width: 300px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .searchButton {
+    flex-shrink: 0;
+    margin-left: 10px;
+    background-color: #1976d2; /* Set a background color for the search button */
+    color: #fff; /* Set the text color for the search button */
+    padding: 8px 16px;
+    border-radius: 4px;
+    opacity: 0.9;
+    background-image: linear-gradient(to left, #426c76, #4d707a, #57757d, #607981, #6a7e84, #6a7e84, #6a7e84, #6a7e84, #607981, #57757d, #4d707a, #426c76);
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  
