@@ -64,7 +64,7 @@ export const AppLayout = () => {
     }, [user, isAdmin])
 
     return (
-        <div className="homeback">
+        <>
             <AppBar className="navbar" position="sticky">
                 <Container maxWidth="xl">
                     <Toolbar  disableGutters>
@@ -169,6 +169,6 @@ export const AppLayout = () => {
                 handleSubmit={handleLoginSubmit}
                 handleClose={handleLoginClose}
             />
-        </div>
+        </>
     )
 }
