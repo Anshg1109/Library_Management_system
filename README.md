@@ -5,8 +5,7 @@ Step 1: cd into `backend`
 ##
 Step 2: run "npm install" to install the dependencies
 ##
-Step 3: download and install MongoDB from here(https://www.mongodb.com/try/download/community) or follow download & installation steps from
-here(https://www.youtube.com/watch?v=oC6sKlhz0OE&ab_channel=CSCORNERSunitaRai).
+Step 3: download and install MongoDB.
 ##
 Step 4: rename the `.env.sample` file to `.env`
 ##
